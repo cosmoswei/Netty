@@ -25,7 +25,7 @@ public class NettyClient {
                     });
             System.out.println("Client side is OK!");
 
-            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 6669).sync();
+            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 8084).sync();
             channelFuture.channel().closeFuture().sync();
         } finally {
             eventExecutors.shutdownGracefully();

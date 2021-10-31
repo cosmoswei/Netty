@@ -31,7 +31,7 @@ public class NettyServer {
                         }
                     });
             System.out.println("server side is ready!");
-            ChannelFuture channelFuture = bootstrap.bind(6669);
+            ChannelFuture channelFuture = bootstrap.bind(8084);
             channelFuture.channel().closeFuture().sync();
         } finally {
             bossGroup.shutdownGracefully();

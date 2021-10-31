@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.slf4j:slf4j-log4j12:2.0.0-alpha5">
+    <CLASSES>
+      <root url="jar://D:/Environment/apache-maven-3.8.2/conf/repository/org/slf4j/slf4j-log4j12/2.0.0-alpha5/slf4j-log4j12-2.0.0-alpha5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Environment/apache-maven-3.8.2/conf/repository/org/slf4j/slf4j-log4j12/2.0.0-alpha5/slf4j-log4j12-2.0.0-alpha5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Environment/apache-maven-3.8.2/conf/repository/org/slf4j/slf4j-log4j12/2.0.0-alpha5/slf4j-log4j12-2.0.0-alpha5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

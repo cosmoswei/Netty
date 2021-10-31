@@ -22,7 +22,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         System.out.println("channelRead0");
         //这句有点牛，打印HTTP信息
-        System.err.println(msg);
+        System.out.println(msg);
         System.out.println(ctx);
         ctx.channel().writeAndFlush("time: " + LocalDateTime.now());
 
