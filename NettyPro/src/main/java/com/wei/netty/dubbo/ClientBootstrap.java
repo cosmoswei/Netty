@@ -12,6 +12,7 @@ public class ClientBootstrap {
             Thread.sleep(2 * 1000);
             String res = service.hello("hello dubbo~");
             System.out.println("result= " + res);
+            System.out.println(i);
         }
     }
 }
