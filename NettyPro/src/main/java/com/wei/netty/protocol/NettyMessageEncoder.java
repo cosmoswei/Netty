@@ -40,13 +40,13 @@ public class NettyMessageEncoder extends MessageToMessageEncoder<NettyMessage> {
             sendBuf.writeInt(keyArray.length);
             sendBuf.writeBytes(keyArray);
             value = param.getValue();
-            marshallingEncoder.encode(value, sendBuf);
+//            marshallingEncoder.encode(value, sendBuf);
         }
         key = null;
         keyArray = null;
         value = null;
         if (nettyMessage.getBody() != null) {
-            marshallingEncoder.encode(nettyMessage.getBody(), sendBuf);
+//            marshallingEncoder.encode(nettyMessage.getBody(), sendBuf);
         } else {
             sendBuf.writeInt(0);
         }
