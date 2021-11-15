@@ -12,7 +12,7 @@ public class Demo {
         ByteBuf CONTENT = null;
         for (int i = 0; i < loop; i++) {
             poolBuffer = PooledByteBufAllocator.DEFAULT.directBuffer(1024);
-            poolBuffer.writeBytes(CONTENT);
+            poolBuffer.  writeBytes(CONTENT);
         }
         System.out.println("time difference value1: " + (System.currentTimeMillis() - startTime1));
 
