@@ -12,7 +12,7 @@ public class Shutdown {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("addShutdownHook execute end...");
+            System.out.println("ShutdownHook execute end...");
         }, ""));
         TimeUnit.SECONDS.sleep(7);
     }
